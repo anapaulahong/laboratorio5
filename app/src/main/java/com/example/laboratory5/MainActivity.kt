@@ -6,7 +6,9 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
 import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -35,23 +37,20 @@ class MainActivity : ComponentActivity() {
             }) {
                 Text(text = "Campus central", fontSize = 18.sp)
             }
+
+            Spacer(modifier = Modifier.height(16.dp))
+
+            Button(onClick = {
+                val navigate = Intent(this@MainActivity, Perfil::class.java)
+                startActivity(navigate)
+            }) {
+                Text(text = "Perfil", fontSize = 18.sp)
+            }
+
+
              }
+
         }
     }
 }
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    Laboratory5Theme {
-        Greeting("Android")
-    }
-}

@@ -125,7 +125,7 @@ class Perfil : ComponentActivity() {
             color = Color.Black,
             style = TextStyle(fontSize = 19.sp),
             modifier = modifier
-                .padding(start = 55.dp, top = 400.dp)
+                .padding(start = 55.dp, top = 390.dp)
         )
         Box(
             modifier = modifier
@@ -136,7 +136,7 @@ class Perfil : ComponentActivity() {
                 contentDescription = null,
                 modifier = modifier
                     .size(40.dp)
-                    .offset(x = 10.dp, y = 395.dp)
+                    .offset(x = 10.dp, y = 385.dp)
             )
         }
 
@@ -145,7 +145,7 @@ class Perfil : ComponentActivity() {
             color = Color.Black,
             style = TextStyle(fontSize = 19.sp),
             modifier = modifier
-                .padding(start = 55.dp, top = 460.dp)
+                .padding(start = 55.dp, top = 440.dp)
         )
         Box(
             modifier = modifier
@@ -156,7 +156,7 @@ class Perfil : ComponentActivity() {
                 contentDescription = null,
                 modifier = modifier
                     .size(40.dp)
-                    .offset(x = 10.dp, y = 455.dp)
+                    .offset(x = 10.dp, y = 435.dp)
             )
         }
 
@@ -165,7 +165,7 @@ class Perfil : ComponentActivity() {
             color = Color.Black,
             style = TextStyle(fontSize = 19.sp),
             modifier = modifier
-                .padding(start = 55.dp, top = 518.dp)
+                .padding(start = 55.dp, top = 488.dp)
         )
         Box(
             modifier = modifier
@@ -176,7 +176,7 @@ class Perfil : ComponentActivity() {
                 contentDescription = null,
                 modifier = modifier
                     .size(40.dp)
-                    .offset(x = 10.dp, y = 513.dp)
+                    .offset(x = 10.dp, y = 483.dp)
             )
         }
 
@@ -185,7 +185,7 @@ class Perfil : ComponentActivity() {
             color = Color.Black,
             style = TextStyle(fontSize = 19.sp),
             modifier = modifier
-                .padding(start = 55.dp, top = 575.dp)
+                .padding(start = 55.dp, top = 530.dp)
         )
         Box(
             modifier = modifier
@@ -196,7 +196,7 @@ class Perfil : ComponentActivity() {
                 contentDescription = null,
                 modifier = modifier
                     .size(40.dp)
-                    .offset(x = 10.dp, y = 568.dp)
+                    .offset(x = 10.dp, y = 523.dp)
             )
         }
 
@@ -205,7 +205,7 @@ class Perfil : ComponentActivity() {
             color = Color.Black,
             style = TextStyle(fontSize = 19.sp),
             modifier = modifier
-                .padding(start = 55.dp, top = 628.dp)
+                .padding(start = 55.dp, top = 575.dp)
         )
         Box(
             modifier = modifier
@@ -216,7 +216,7 @@ class Perfil : ComponentActivity() {
                 contentDescription = null,
                 modifier = modifier
                     .size(40.dp)
-                    .offset(x = 10.dp, y = 623.dp)
+                    .offset(x = 10.dp, y = 573.dp)
             )
         }
 
@@ -225,7 +225,7 @@ class Perfil : ComponentActivity() {
             color = Color.Black,
             style = TextStyle(fontSize = 19.sp),
             modifier = modifier
-                .padding(start = 55.dp, top = 680.dp)
+                .padding(start = 55.dp, top = 620.dp)
         )
         Box(
             modifier = modifier
@@ -236,7 +236,7 @@ class Perfil : ComponentActivity() {
                 contentDescription = null,
                 modifier = modifier
                     .size(40.dp)
-                    .offset(x = 10.dp, y = 673.dp)
+                    .offset(x = 10.dp, y = 613.dp)
             )
         }
 

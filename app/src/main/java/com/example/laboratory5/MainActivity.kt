@@ -38,7 +38,7 @@ class MainActivity : ComponentActivity() {
                 Text(text = "Campus central", fontSize = 18.sp)
             }
 
-            Spacer(modifier = Modifier.height(16.dp))
+            Spacer(modifier = Modifier.height(13.dp))
 
             Button(onClick = {
                 val navigate = Intent(this@MainActivity, Perfil::class.java)
@@ -46,6 +46,24 @@ class MainActivity : ComponentActivity() {
             }) {
                 Text(text = "Perfil", fontSize = 18.sp)
             }
+                
+            Spacer(modifier = Modifier.height(13.dp))
+                
+            Button(onClick = {
+                val navigate = Intent(this@MainActivity, Configuracion::class.java)
+                startActivity(navigate)
+            }) {
+                Text(text = "Configuracion", fontSize = 18.sp)
+            }    
+                
+            Spacer(modifier = Modifier.height(13.dp))
+            
+            Button(onClick = {
+                val navigate = Intent(this@MainActivity, EmergencyContacts::class.java)
+                startActivity(navigate)
+            }) {
+                Text(text = "Emergency contacts", fontSize = 18.sp)
+            }    
 
 
              }
